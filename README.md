@@ -23,3 +23,11 @@ chmod +x dns-check.rb
 cp dns-check /usr/local/bin/da
 ```
 
+```bash 
+sudo bash -c "apt-get update && apt-get install dos2unix"
+```
+
+```bash 
+dos2unix dns-check.rb
+```
+
